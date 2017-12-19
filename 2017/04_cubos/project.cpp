@@ -10,6 +10,7 @@ int main (){
     printf("( %.2lf , %.2lf  ) \n" , 
             vertice[0] / vertice[2],
             -vertice[1] / vertice[2] );
+    printf ("Eres un genio bro\n ");
 
 	return EXIT_SUCCESS;
 
