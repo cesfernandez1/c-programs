@@ -1,4 +1,4 @@
-  
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -18,17 +18,17 @@ int main (){
         printf( " El número que has introducido es el 3.\n" );
 
     }
-      
+
     else if ( bit1 ==0 & bit2 == 0 )  {
 
-          printf( " El numero que has introducido es el 0.\n"  );
+        printf( " El numero que has introducido es el 0.\n"  );
 
     }
 
     else if ( bit1 == 0 & bit2 == 1 ) {
 
-            printf( " El numero que has introducido es el 2.\n" );
-        }
+        printf( " El numero que has introducido es el 2.\n" );
+    }
     else if ( bit1 == 1 & bit2 == 0 ) {
 
         printf( " El numero que has introducido es el 1.\n" );
@@ -36,12 +36,12 @@ int main (){
 
 
 
-    
-    
-    
 
 
 
-	return EXIT_SUCCESS;
+
+
+
+    return EXIT_SUCCESS;
 
 }
