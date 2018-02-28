@@ -13,7 +13,7 @@ int main (){
     long int entero_largo = 93;
     unsigned positivo = 5; 
 
-        system("toilet --gay -fpagga DATOS");
+        system("toilet --gay -fpagga DATOS¡¡");
 
         printf("%i  \t(%lu bytes)\n", entero, sizeof(int));
         printf("%li  \t(%lu bytes)\n", entero_largo, sizeof(int));
