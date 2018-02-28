@@ -5,7 +5,7 @@
 
 int main (){
        
-	printf("Hola Maike.\n");/* Llamada a la función */
+	printf("Hola Maikel.\n");/* Llamada a la función */
 
 	return EXIT_SUCCESS;
 
