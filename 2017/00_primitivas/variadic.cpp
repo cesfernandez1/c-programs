@@ -5,7 +5,7 @@
 
 int main (){
 
-    int op1 = 7;
+    int op1 = 8;
     int op2;
     
     printf("Operando 2: ");
