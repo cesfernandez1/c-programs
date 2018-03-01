@@ -1,4 +1,4 @@
- 
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -13,17 +13,17 @@ int main(){
 
     printf("Lado: ");
     scanf(" %i", &lado);
-     /*Calculos*/
+    /*Calculos*/
 
     area = lado * lado;
     perimetro = 4 * lado;
 
-     
+
     printf( "Area: %i\n"
             "Perimetro: %i\n",
             area,perimetro );
-       
 
-	return EXIT_SUCCESS;
+
+    return EXIT_SUCCESS;
 
 }
