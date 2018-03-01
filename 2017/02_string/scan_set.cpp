@@ -9,7 +9,7 @@ int main (){
     char hexadecimal[16];
     int num, dia, mes;
 
-    printf("Entero: ");
+    printf("Entero : ");
     scanf(" %i", &num);
     scanf(" %s", nombre);
     printf("[%i] => %s.\n", num, nombre);
