@@ -2,11 +2,12 @@
 #include<stdlib.h>
 
 
+
 #define N 0x100
 
 int main () {
 
-    const  char *p = "The world is ";  //Coinstante tipo cadena.
+    const  char *p = "The world is a ";  //Coinstante tipo cadena.
     /* Pequeña leccion sobre punteros   
     char const *p // Puntero a una constante . Forma coherente de decir que el char es constante .
     char * const p; // Puntero  constante (fijo)
