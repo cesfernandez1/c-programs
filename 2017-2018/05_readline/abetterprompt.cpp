@@ -8,7 +8,7 @@ int main (){
 
     char buffer[N];
 
-    printf("Nombre: ");
+    printf("Dime tu nombre: ");
     fgets(buffer, N, stdin);
 
     readline("Nombre: ");
