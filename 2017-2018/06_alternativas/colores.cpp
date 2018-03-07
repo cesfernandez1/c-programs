@@ -7,7 +7,7 @@ int main (){
     int azul;
     int amarillo;
 
-    system("toilet --gay -fpagga COLORES"  );
+    system("toilet --gay -fpagga COLORES¡¡¡"  );
 
 
     printf(" Dame el valor del color rojo:");
