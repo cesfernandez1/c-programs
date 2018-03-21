@@ -15,19 +15,11 @@
 #define F 3 // Fragata
 #define L 2 // Lancha
 
+
 void pinta_fnumero( int c[Q]){
     int b = 1;
     for(int fn=0; fn<Q; fn++){
-         printf("    %i ", b);
-        b++;
-    }
-}
-
-void pinta_cnumero( int c[Q] ){
-    int b = 1;
-    for(int fn=0; fn<Q; fn++){
-        printf(" %i", b);
-        printf(" \n");
+        printf("    %i ", b);
         b++;
     }
 }
@@ -39,6 +31,7 @@ void pinta_tablero(int a[N][N]){
         printf(" \n\n");
     }
 }
+
 
 
 int main (){
@@ -64,11 +57,13 @@ int main (){
 
     printf(" \n");
 
-    pinta_cnumero(c);
-
-
     pinta_tablero(a);
-//Esta es la leyenda del juego
+
+    pinta_fnumero(c);
+
+    printf(" \n\n");
+
+    //Esta es la leyenda del juego
     printf(
             "Leyenda : \n"
             "\t1.A = Agua\n"
@@ -76,14 +71,14 @@ int main (){
             "\t3.T = Tocado\n"
             "\t4.H = Hundido\n"
           );
-// Numero y espacio que ocupan los barcos 
+    // Numero y espacio que ocupan los barcos 
     printf(
             "Barcos : \n"
             "\t1. Portaaviones 2x 頣頣頣頣\n"
             "\t2. Fragata      1x 頣頣頣\n"
             "\t3. Lancha       2x 頣頣\n"
 
-            );
+          );
 
 
 
