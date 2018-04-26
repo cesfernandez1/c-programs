@@ -32,15 +32,59 @@ void pintar_matriz(int a[N][N]){
     }
 }
 
+void defaultnumbers(int a [N][N]){
+    a[0][1] = 6;
+    a[0][3] = 1;
+    a[0][5] = 4;
+    a[0][7] = 5;
+    a[1][2] = 8;
+    a[1][3] = 3;
+    a[1][5] = 5;
+    a[1][6] = 6;
+    a[2][0] = 2;
+    a[2][8] = 1;
+    a[3][0] = 8;
+    a[3][3] = 4;
+    a[3][5] = 7;
+    a[3][8] = 6;
+    a[4][2] = 6;
+    a[4][6] = 3;
+    a[5][0] = 7;
+    a[5][3] = 9;
+    a[5][5] = 1;
+    a[5][8] = 4;
+    a[6][0] = 5;
+    a[6][8] = 2;
+    a[7][2] = 7;
+    a[7][3] = 2;
+    a[7][5] = 6;
+    a[7][6] = 9;
+    a[8][1] = 4;
+    a[8][3] = 5;
+    a[8][5] = 8;
+    a[8][7] = 7;
+}
+
+
 int main (){
 
     int a[N][N];
+    int f, c;
+
+    system("clear");
+
+    printf("SUDOKU\n\n");
+
+
 
     introducir(a);
-
-
+    defaultnumbers(a);
     pintar_matriz(a);
 
-	return EXIT_SUCCESS;
+
+
+    printf("\n\n");
+
+    return EXIT_SUCCESS;
 
 }
