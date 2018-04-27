@@ -5,7 +5,7 @@
 
 
 void introducir(int a[N][N]){
-    char relleno = '\0';
+    int relleno = '\0';
     for(int f=0; f<N; f++){
         for(int c=0; c<N; c++)
             a[f][c]= relleno;
@@ -64,24 +64,37 @@ void defaultnumbers(int a [N][N]){
     a[8][5] = 8;
     a[8][7] = 7;
 }
+void meter_datos (int a[N][N]) {
 
+    int f , c , numero_cogido,numero;
+
+    printf(" Que numero quieres meter?");
+    scanf(" %i", &numero_cogido);
+    printf(" Introduce la fila ");
+    scanf(" %i", &f);
+    printf(" Introduce la columna");
+    scanf(" %i", &c);
+    numero = numero_cogido;
+    a[f][c] = numero;
+}
 
 int main (){
 
     int a[N][N];
-    int f, c;
+    int f, c, numero;
 
     system("clear");
 
     printf("SUDOKU\n\n");
-
-
-
     introducir(a);
     defaultnumbers(a);
     pintar_matriz(a);
+    do{
 
+        meter_datos(a);
+ pintar_matriz(a);
 
+    }while(1);
 
     printf("\n\n");
 
