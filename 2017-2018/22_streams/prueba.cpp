@@ -8,7 +8,7 @@ int main (){
     int nContador = 0;
     char caracter = 'i';
 
-    archivo = fopen("20729.txt","r");
+    archivo = fopen("prueva.txt","r");
     do{
         if(fgetc(archivo )== caracter)
             nContador++;
