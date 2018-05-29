@@ -1,0 +1,20 @@
+#include <stdlib.h>
+#include <stdio.h>
+char frase[] = "hola me llamo ralph";
+char *letra = frase;
+void imprime(char letra) {
+    if( letra != '\0'){
+        printf("%c",letra);
+            letra++;
+    }
+}
+
+
+int main (){
+
+
+    imprime(*letra);
+
+	return EXIT_SUCCESS;
+
+}
